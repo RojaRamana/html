@@ -1,0 +1,32 @@
+<DOCTYPE html>
+    <!--positioning.html-->
+    <!--absolute positioning of elements.-->
+    <html>
+        <head>
+        <meta charset ="utf-8">
+        <title>absolute positioning</title>
+        <style type ="text/css">
+            .background-image {position :absolute;
+            top :0px;
+        left :0px;
+    z-index :1;}
+    .foreground-image {position :absolute;
+    top :200px;
+left :200px;
+z-index :2;}
+.text {position :absolute;
+top :500px;
+left :500px;
+z-index :3;
+font-size :20pt;
+font-family : tahoma,geneva,sans-serif;}
+</style>
+</head>
+<body>
+    <p><img src ="bts.jpg" class="background-images"
+        alt ="first positioned image"/></p>
+        <p><img src="purple.jpg" class="foreground-image"
+            alt ="second positioned image"/></p>
+            <p class ="text">positioned text</p>
+            </body>
+            </html>
